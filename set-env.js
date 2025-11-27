@@ -7,5 +7,4 @@ export const environment = {
   apiKey: '${process.env.NG_APP_API_KEY}'
 };
 `;
-
 fs.writeFileSync(targetPath, envFileContent);
